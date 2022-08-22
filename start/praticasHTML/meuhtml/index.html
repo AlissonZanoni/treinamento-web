@@ -1,0 +1,162 @@
+<!DOCTYPE html> <!--dizendo que utilizara html 5-->
+<html lang="pt-BR"> <!--linaguagem padrão para quando for traduzir-->
+<head>
+    <meta charset="UTF-8"> <!--caracteres que irão abranger-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--abrangendo visualização em dispositivos mobile-->
+    
+    <!-- favicon básico -->
+    <link rel="icon" href="/icons/icon-48x48.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <!-- iPhone não-Retina, iPod Touch e dispositivos Android 2.1+: -->
+    <link rel="apple-touch-icon-precomposed" href="https://developer.cdn.mozilla.net/static/img/favicon57.a2490b9a2d76.png">
+
+    <!-- iPad de primeira e segunda geração: -->
+    <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <!-- iPhone com tela retina de alta resolução: -->
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <!-- iPad de terceira geração com tela retina de alta resolução: -->
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=cfca599cb367ccaf7377d56ddc7542f5"/>
+
+    <title>TESTE</title> <!--titulo da pagina-->
+
+    <!-- Para definir o autor da pagina -->
+    <meta name="author" content="Alissim">
+
+    <!-- Para botar uma descrição da pagina na pagina do google  -->
+    <meta name="description" content="Um website para iniciantes em programação">
+
+
+
+</head>
+<body>
+    <!--estilos de titulo-->
+    <h1>Aqui é um teste</h1> 
+    <h2>Aqui é outro teste tlg</h2>
+    <h3>Não vou mais testar aqui</h3>
+
+    <p>like a g6<br>
+        <a href="www.google.com">link man</a> <!--links -->
+    </p>
+
+    <p>caracteres reservados <br>
+       &lAarr;
+       &Aacute;
+       &ac;
+       &lt;
+       &apos;
+       &qopf; 
+    </p>
+
+    <ul> <!--lista n ordenada-->
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+    <li>e</li>
+    </ul>
+
+    <ol> <!--lista ordenada-->
+        <li>teste</li>
+        <li>teste</li>
+    </ol>
+
+    <!--citação 1-->
+    <blockquote cite="url">
+        <strong>teste</strong> <code>&lthtml&gt</code>
+        <em> é dahora</em>
+    </blockquote>
+
+    <!--citação 2-->
+    <p>De acordo com o <a href="google.com"><cite>google o mundo vai acabar</cite></a></p>
+
+    <!--abreviação-->
+    <p>Gosto de <abbr title="League of Legends"><em>LOL</em></abbr> e feedar com amigos</p>
+
+    <!--Detalhes de contato-->
+    <address>
+        <p>Zanoninho <br>
+        <strong>MUITO BRABO </strong></p>
+    </address>
+
+    <!--Glossário-->
+
+    <h2>GLOSSARIO</h2>
+    <dl>
+        <dt>MID</dt>
+        <dd>Lane mais curta do jogo</dd>
+
+        <dt>BOT</dt>
+        <dd>Só tem ruim jogando</dd>
+    </dl>
+
+    <!--Inclusão de código formatado utiliza o <pre>-->
+        <pre>
+            <code>
+        if(number == 0){
+            printf("reprovado");
+        }
+            else{
+                printf("melhor que nada");
+            }
+            </code>
+        </pre>
+
+    <!--Class e span divindo em blocos e conteudos em linhas-->
+    <div class="produto">
+        <span>Camisa</span><span>30,00 R$</span>
+    </div>
+
+    <div class="Contato">
+        <span>Telefone</span><span> (48) 9999-9999</span>
+    </div>
+
+
+    <!--Entendendo utilização de links
+    
+    Atributos: globais 
+               href(url,fragmento,email,telefone...) Fragmento serve para direcionar o usuário direto ao ponto,
+               podendo compartilhar o link para pessoa acessar especificadamente o conteudo
+               download
+               target(_self padrão faz abrir na mesma guia) (_blank abre em nova guia)
+    -->
+    
+    <ul>
+        <li><a href="www.google.com" target="_blank">Website</a></li>
+        <li><a href="mailto:alisson.zanonii@gmail.com">email</a></li>
+        <li><a href="tel:+5548988536393">Telefone</a></li>
+        <li><a href="#eu">Eu</a></li>
+        <li><a href="#voce">Voce</a></li>
+        <li><a href="#nos">nos</a></li>
+    </ul>
+
+    <a href="www.google.com" title="Ir para o google">
+        <h1>Inserindo coisas no link</h1>
+        <img src="https://source.unsplash.com/random" alt="">
+    </a>
+
+    <a href="index.html">Abrindo um arquivo do projeto</a><br>
+    <a href="../teste_diretorio/home.html">voltando 2 pasta</a><br>
+    <a href="./index.html">voltando 1 pasta</a>
+
+    <a href="google.com">relativo ir para o google</a><br>
+    <a href="www.google.com">absoluto ir para o google</a>
+
+    <h1 id="eu">Sobre mim</h1>
+    <h1 id="voce">Sobre você</h1>
+    <h1 id="nos">Sobre nós</h1>
+
+</body>
+</html>

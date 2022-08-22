@@ -1,0 +1,22 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap';
+
+* {
+ /* css global para elementos que não estiverem estilizados, caso tenha sua tag aqui irá obedecer a tag estilizada */
+  margin: 0;  
+}
+
+h1 {
+color: blue;
+font-size: 60px;
+background: gray;
+}
+
+#container{
+    width: 100px;
+    color: red;
+}
+
+.container{
+    margin: 10px;
+    font-family: 'Ranchers', cursive;
+}
